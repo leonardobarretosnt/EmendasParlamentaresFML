@@ -1,3 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+EmendasParlamentares_Convenios.csv filter=lfs diff=lfs merge=lfs -text
+EmendasParlamentares.csv filter=lfs diff=lfs merge=lfs -text
 EmendasParlamentares_PorFavorecido.csv filter=lfs diff=lfs merge=lfs -text
